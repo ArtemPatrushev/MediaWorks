@@ -1,0 +1,16 @@
+.navMenu {
+  grid-area: 'leftMenu';
+  padding-top: 52px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #EFEDF6;
+  height: 100%;
+  .navMenu__item {
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 21px;
+    color: #474351;
+    padding: 22px 107px 22px 72px;
+    cursor: pointer;
+  }
+}
